@@ -126,6 +126,7 @@ const Navbar = styled.nav`
             margin-bottom: 1rem;
             
         }
+       
     }
     .navLink{
         margin-right: 15px;
@@ -143,6 +144,7 @@ const Navbar = styled.nav`
              padding: 5px;
         }
 
+        
     }
     
 
