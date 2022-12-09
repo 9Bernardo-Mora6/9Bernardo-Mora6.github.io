@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.titleForm h1 {
+    text-align: center;
+    margin: 20px 0px;
+
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 3vh;
+}
+
+.input {
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1.5px;
+}
+
+.submit {
+    padding: 10px;
+    /* background-color: black;
+    color: aliceblue; */
+    border-radius: 5px;
+
+}
+
+/* .submit:hover {
+    color: black;
+    background-color: aliceblue;
+    transition: 0.5s;
+    border-color: aliceblue;
+    text-shadow: 20px;
+} */
+
+.signUp {
+    text-align: center;
+    width: 70%;
+    font-size: small;
+}
+
+.terminos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.terminos input{
+    margin-right: 10px;
+ 
+}
+
+.errorText {
+    padding: 0.5rem;
+    font-size: 1em;
+    color: crimson;
+    text-align: center;
+}

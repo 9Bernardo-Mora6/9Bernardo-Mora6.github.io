@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.cardSection {
+ 
+  display: grid;
+  grid-auto-rows: 20rem;
+  /* Duda? consultar: https://www.youtube.com/watch?v=El0OJ6h_2ZI */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%,15rem), 1fr));
+ 
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1em;
+  margin: .5rem;
+}
